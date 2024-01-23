@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap');
+
+table{
+    width: 35%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+th, td{
+    padding: 10px;
+    border: 2px solid black;
+    text-align: left;
+}
+.lorem{
+    background-color: aqua;
+    color: brown;
+}
+.Spucok{
+    background-color: aquamarine;
+    color: blueviolet;
+}
+.table{
+    background-color: bisque;
+    color: blue;
+}
+.Zobra{
+    color: rgb(30, 226, 0);
+    background-color: rgb(210, 169, 249);
+    
+}
+.zax{
+    font-size: medium;
+    color: black;
+    font-size: 120%;
+}
+
+.Ocnova{
+    font-family: 'Kalnia', serif;
+    text-align:center;
+}
+.zax{
+    font-family: 'Lobster', sans-serif;
+
+}
+.hhh{
+    font-family: 'Hedvig Letters Serif', serif;
+}
+
+
+@media (max-width:768px) {
+    section{
+       display: flex;
+       flex-wrap: wrap;
+    }
+    article{
+       flex: 400px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+    section{
+        display: flex;
+        flex-wrap: wrap;
+     }
+     article{
+        flex: 400px;
+     }
+}
+
+@media (min-width: 992px) and (max-width: 1200px){ 
+    section{
+        display: flex;
+        flex-wrap: wrap;
+     }
+     article:nth-child(1),
+     article:nth-child(2),
+     article:nth-child(3){
+        flex: 300px;
+     }
+     article:nth-child(4){
+        flex: 900px;
+     }
+}
+
+@media (min-width:1200px) {
+    section{
+        display: flex;
+    }
+    article{
+        flex: 400px;
+        flex-direction: column;
+    }
+
+}
